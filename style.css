@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.bgc {
+  background-color: rgba(149, 0, 255, 0.699);
+  padding-bottom: 5vw;
+}
+
+.addBtn,
+input {
+  border: none;
+}
+
+.addBtn {
+  border-left: 1px solid rgba(128, 128, 128, 0.411);
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.addBtn:focus {
+  outline: none;
+}
+
+ul button {
+  border: none;
+  background-color: inherit;
+  transition: 0.5s ease;
+  padding: 0 0.5vw;
+  background:none;
+}
+
+ul button:hover {
+  background-color: rgba(149, 0, 255, 0.413)!important;
+    color: white !important;
+}
+
+ul li{
+width: 100%;
+}
+ul{
+ list-style-type: none;
+  margin: 0;
+}
